@@ -1,0 +1,58 @@
+    
+[
+  {
+    "name": "Spice Hub",
+    "id": 464654,
+    "costForTwo": 250,
+    "cuisines": ["Indian", "Chinese"],
+    "deliveryTime": 35,
+    "veg": true,
+    "avgRating": "4.5"
+  },
+  {
+    "name": "Pizza Palace",
+    "id": 464655,
+    "costForTwo": 300,
+    "cuisines": ["Italian", "Pizza"],
+    "deliveryTime": 20,
+    "veg": false,
+    "avgRating": "4.0"
+  },
+  {
+    "name": "Meghna Foods",
+    "id": 464656,
+    "costForTwo": 200,
+    "cuisines": ["Biryani", "North Indian"],
+    "deliveryTime": 30,
+    "veg": false,
+    "avgRating": "3.8"
+  },
+  {
+    "name": "Spicy Treat",
+    "id": 464657,
+    "costForTwo": 150,
+    "cuisines": ["South Indian", "Chinese"],
+    "deliveryTime": 25,
+    "veg": true,
+    "avgRating": "4.2"
+  },
+
+  {
+    "name": "Tandoori Nights",
+    "id": 464658,
+    "costForTwo": 300,
+    "cuisines": ["North Indian", "Tandoor"],
+    "deliveryTime": 40,
+    "veg": false,
+    "avgRating": "4.5"
+  },
+  {
+    "name": "Veggie Delight",
+    "id": 464659,
+    "costForTwo": 180,
+    "cuisines": ["Vegetarian", "Italian"],
+    "deliveryTime": 20,
+    "veg": true,
+    "avgRating": "4.0"
+  }
+]

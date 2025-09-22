@@ -1,9 +1,10 @@
 import RestaurantCard from "./RestaurantCard";
 import swigywork from "../data/Swigywork.json";
+import { useState } from "react";
 
 const Body = () => {
 
-    
+    const[listOfRestaurants, setListOfRestaurants] = useState(swigywork);
 
     return (
         <div className="body">
@@ -11,17 +12,16 @@ const Body = () => {
                 <input type="text" className="form-control" placeholder="Search..." />
                 <button className="filter-btn" 
                 onClick={() => {
-                    // console.log("button clicked")
-                    swigywork = swigywork.filter(
+                    const filteredList = listOfRestaurants.filter(
                         (res) => res.avgRating > 4 
                     );
-                    console.log(swigywork);
+                    setListOfRestaurants(filteredList);
                 }} 
                 >Top Rated Restaurants</button>
             </div>
             <div className="res-container">
                 {
-                    swigywork.map((item, index) => (
+                    listOfRestaurants.map((item, index) => (
                         <RestaurantCard key={item.id} swigywork={item} />
                     ))
                 }

@@ -15,13 +15,13 @@
   "author": "Amit Dwivedi",
   "license": "ISC",
   "devDependencies": {
-    "parcel": "^2.15.4"
+    "parcel": "^2.16.0"
   },
   "dependencies": {
     "react": "^19.1.1",
     "react-dom": "^19.1.1"
   },
-  "browserslist":[
+  "browserslist": [
     "last 2 version"
   ]
 }
